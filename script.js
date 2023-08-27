@@ -1,6 +1,6 @@
 $(document).ready(function() {
       var path = new URL(window.location);
-      var liffId = path.searchParams.get('linkurl');
+      var liffId = path.searchParams.get('https://developers.line.biz/en/reference/liff/');
         liff.init({
           liffId: "2000548624-ARoabQ9p" //วางLiffId ตรงนี้
         })
