@@ -7,9 +7,11 @@ $(document).ready(function() {
         .then(() => {
           if (liff.isInClient()) {
             if (liff.getOS() == "ios") {
-              window.location.replace(""+liffId);              
+              // window.location.replace(""+liffId);              
+              window.location.replace(liffId);              
             } else if (liff.getOS() == "android") {
-              window.location.replace(""+liffId);
+              // window.location.replace(""+liffId);
+              window.location.replace(liffId);
             }
 
             setTimeout(function(){ liff.closeWindow(); }, 3000); //เปลี่ยนเวลาที่ต้องการ Redirect
