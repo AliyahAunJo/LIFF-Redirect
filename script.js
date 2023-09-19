@@ -1,8 +1,8 @@
 $(document).ready(function() {
       var path = new URL(window.location);
-      var liffId = path.searchParams.get('line://app/2000548624-ARoabQ9p?linkurl=');
+      var liffId = path.searchParams.get('line://app/2000548624-JbxE982N?url=');
         liff.init({
-          liffId: "2000548624-ARoabQ9p" //วางLiffId ตรงนี้
+          liffId: "2000548624-JbxE982N" //วางLiffId ตรงนี้
         })
         .then(() => {
           if (liff.isInClient()) {
