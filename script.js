@@ -1,6 +1,6 @@
 $(document).ready(function() {
       var path = new URL(window.location);
-      var liffId = path.searchParams.get('line://app/2000548624-ARoabQ9p?=https://aliyahaunjo.github.io/webapp/?apps=https://script.google.com/macros/s/AKfycbxwZ-Yw4R3W2lG7rWrmivKxstwGG04DhmU0W3klFnOLxu4l7uekYnlOMrQAy39Zy7ddow/exec');
+      var liffId = path.searchParams.get('line://app/2000548624-ARoabQ9p?linkurl=https://aliyahaunjo.github.io/webapp/?apps=https://script.google.com/macros/s/AKfycbxwZ-Yw4R3W2lG7rWrmivKxstwGG04DhmU0W3klFnOLxu4l7uekYnlOMrQAy39Zy7ddow/exec');
         liff.init({
           liffId: "2000548624-ARoabQ9p" //วางLiffId ตรงนี้
         })
